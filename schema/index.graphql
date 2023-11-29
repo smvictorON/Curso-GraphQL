@@ -1,0 +1,10 @@
+#import Usuario, Perfil from 'usuario.graphql'
+#import Produto from 'produto.graphql'
+#import Query from 'query.graphql'
+
+# Para definir um tipo que nao seja nativo usamos o scalar
+# EX: scalar Date
+# Nativos: (Int Float String Boolean ID)
+
+scalar Date
+

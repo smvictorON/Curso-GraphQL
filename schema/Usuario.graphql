@@ -1,0 +1,29 @@
+# O caracter ! após o tipo do retorno significa obrigatorio
+# EX: String!
+
+# Para retornar um array basta colocar o tipo entre colchetes
+# EX: [Int]
+
+# Podemos tambem definir um type
+
+type Usuario {
+  id: ID,
+  nome: String!
+  email: String!
+  idade: Int
+  salario: Float
+  vip: Boolean
+  perfil: Perfil
+  status: UsuarioStatus
+}
+
+type Perfil {
+  id: Int,
+  nome: String
+}
+
+enum UsuarioStatus {
+  ATIVO
+  INATIVO
+  BLOQUEADO
+}

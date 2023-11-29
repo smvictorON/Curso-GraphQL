@@ -1,0 +1,48 @@
+{
+  # ola
+  # horaAtualS
+  # horaAtualD
+  # usuarioLogado{
+  #   id
+  #   nome
+  #   email
+  #   idade
+  #   salario
+  #   vip
+  # }
+  # produtoEmDestaque{
+  #   nome
+  #   preco
+  #   desconto
+  #   precoComDesconto
+  # }
+  # numerosMegaSena
+  # usuarios{
+  #   id nome idade
+  # }
+  # usuario(id: 2){
+  #   id nome
+  # }
+  # perfis{
+  #   id nome
+  # }
+  # perfil(id: 2){
+  #   id nome
+  # }
+	# usuarios{
+	# nome
+	# perfil {
+	# nome
+	# }
+	# }
+  usuario(id: 1){
+    ...usuarioCompleto
+  }
+}
+
+# usamos o fragment para setar um tipo padrao de retorno
+# o uso do fragment é semelhante ao spread com ...
+fragment usuarioCompleto on Usuario {
+  id nome idade status
+  perfil { nome id }
+}
