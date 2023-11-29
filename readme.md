@@ -1,11 +1,11 @@
-Curso GraphQL
+# Curso GraphQL
 
-# Para rodar o projeto
+### Para rodar o projeto
 ```
 npm start
 ```
 
-# Acessar playground
+### Acessar playground
 ```
 localhost:4000
 ```
