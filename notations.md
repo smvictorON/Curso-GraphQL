@@ -22,3 +22,14 @@ Se não for projetado corretamente, pode levar a problemas de sobrecarga (overfe
 
 -----------------------------------------------------------------------------------------
 
+# Query:
+- As queries são usadas para recuperar dados do servidor GraphQL.
+- Elas são semelhantes às consultas de leitura (read) em bancos de dados tradicionais.
+- Permitem que você especifique exatamente quais campos de dados você deseja recuperar e a estrutura desses dados.
+- São executadas de forma paralela (múltiplas queries podem ser resolvidas em uma única requisição) e são idempotentes (não alteram o estado dos dados no servidor).
+
+# Mutation:
+- As mutations são usadas para modificar ou criar dados no servidor GraphQL.
+- São semelhantes às operações de criação (create), atualização (update) e exclusão (delete) em bancos de dados tradicionais.
+- Permitem que você defina operações que alteram o estado dos dados, como criar um novo usuário, atualizar um post, deletar um comentário etc.
+- Podem retornar dados após a modificação, se necessário.
