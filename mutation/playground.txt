@@ -1,0 +1,74 @@
+mutation {
+  # novoUsuario(
+  #   nome: "Victor",
+  #   email: "victorsm9@hotmail.com",
+  #   idade: 28
+  # ) {
+  #   id nome email status
+  #   perfil {
+  #     nome
+  #   }
+  # }
+
+  # excluirUsuario(id: 2){
+  #   nome id
+  # }
+
+  # alterarUsuario(
+  #   id: 2,
+  #   nome: "Victor"
+  #   email: "victorsm9@hotmail.com"
+  #   idade: 20
+  # ) {
+  #   id nome email idade
+  # }
+
+  # novoUsuarioInput(
+  #   dados: {
+  #     nome: "VictorInput",
+  #     email: "victorsm9@hotmail.com",
+  #     idade: 28
+  #   }
+  # ) {
+  #   id nome email status
+  #   perfil {
+  #     nome
+  #   }
+  # }
+
+  # excluirUsuarioInput(filtro: {
+  #   email: "danismi@umail.com"
+  # }){
+  #   nome id email
+  # }
+
+  # alterarUsuarioInput(
+  #   filtro: {
+  #     email: "danismi@umail.com",
+  #   }
+  #   dados: {
+  #     nome: "Victor"
+  #     email: "victorsm9@hotmail.com"
+  #     idade: 20
+  #   }
+  # ) {
+  #   id nome email idade
+  # }
+
+  # novoPerfil(
+  #   nome: "Gerente",
+  # ) {
+  #   id nome
+  # }
+
+  # excluirPerfil(id: 1){
+  #   nome id
+  # }
+
+  alterarPerfil(
+    id: 2,
+    nome: "Gerente"
+  ) {
+    id nome
+  }
+}
