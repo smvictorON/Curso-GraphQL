@@ -33,3 +33,21 @@ Se não for projetado corretamente, pode levar a problemas de sobrecarga (overfe
 - São semelhantes às operações de criação (create), atualização (update) e exclusão (delete) em bancos de dados tradicionais.
 - Permitem que você defina operações que alteram o estado dos dados, como criar um novo usuário, atualizar um post, deletar um comentário etc.
 - Podem retornar dados após a modificação, se necessário.
+
+-----------------------------------------------------------------------------------------
+
+# knex utilizando para fazer a integração com o banco
+
+Gerar arquivo de configuração
+>npx knex init
+
+Gerar migrations
+>npx knex migrate:make sua_tabela
+
+Executar as ultimas migrations
+>npx knex migrate:latest
+
+Fazer rollback das migrations
+>npx knex migrate:rollback
+
+-----------------------------------------------------------------------------------------
