@@ -1,0 +1,33 @@
+{
+  # perfis {
+  #   id nome rotulo
+  #   usuarios {
+  #     nome
+  #   }
+  # }
+
+  # perfil(
+  #   filtro:{
+  #     # id: 1
+  #   	nome: "admin"
+  #   }
+  # ){
+  #   nome, rotulo
+  # }
+
+  # usuarios {
+  #   id nome email
+  #   perfis{
+  #     nome
+  #   }
+  # }
+
+  # usuario(
+  #   filtro:{
+  #     # id: 1
+  #     email: "jshow@empresa.com.br"
+  #   }
+  # ){
+  #   nome email
+  # }
+}

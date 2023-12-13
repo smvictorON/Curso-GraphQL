@@ -1,0 +1,79 @@
+mutation{
+  # novoPerfil(
+  #   dados:{
+  #   	nome: "visitante",
+  #   	rotulo: "Visitante"
+  # 	}
+  # ){
+  #   id nome rotulo
+  # }
+
+  # excluirPerfil(
+  #   filtro:{
+  #     # id: 4
+  #     nome: "master"
+  #   }
+  # ){
+  #   nome id
+  # }
+
+  # alterarPerfil(
+  #   filtro:{
+  #     # id: 1
+  #     nome: "usuario1"
+  #   }
+  #   dados: {
+  #     nome: "master"
+  #     rotulo: "Master"
+  #   }
+  # ){
+  #   nome id
+  # }
+
+  # novoUsuario(
+  #   dados:{
+  #   	nome: "Lamara",
+  #   	email: "victorsm10@hotmail.com"
+  #     senha: "123123"
+  #     perfis: [
+  #       {nome: "master"},
+  #       {id: 5}
+  #     ]
+  # 	}
+  # ){
+  #   id nome email
+  #   perfis {
+  #     rotulo
+  #   }
+  # }
+
+  # excluirUsuario(
+  #   filtro:{
+  #     # id: 9
+  #     email: "victorsm10@hotmail.com"
+  #   }
+  # ){
+  #   id nome email
+  # }
+
+  # alterarUsuario(
+  #   filtro:{
+  #     id: 10
+  #     # email: "victorsm6@hotmail.com"
+  #   },
+  #   dados:{
+  #     nome: "Vitão1"
+  #     email: "teste1@gmail.com"
+  #     senha: "1111112"
+  #     perfis: [
+  #       {nome: "admin"}
+  #       {nome: "teste"}
+  #     ]
+  #   }
+  # ){
+  #   id email nome
+  #   perfis{
+  #     nome
+  #   }
+  # }
+}
