@@ -51,3 +51,13 @@ Fazer rollback das migrations
 >npx knex migrate:rollback
 
 -----------------------------------------------------------------------------------------
+
+Os resolvers recebem 4 parametros para trabalhar
+
+- Obj: primeio parametro, se for a porta de entrada nao va conter nada porém se for chamado por uma função pai, ele vai ter o objeto passado
+
+- Args: aqui vão vir os argumentos do resolver
+
+- Ctx: aqui vem o contexto com algum dado complementar
+
+- Info: funciona de forma semelhante ao Ctx
