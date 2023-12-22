@@ -2,7 +2,7 @@ const jwt = require('jwt-simple')
 
 module.exports = async ({req}) => {
   // comente a linha abaixo para testar no playground
-  await require('./simularUsuarioLogado')(req)
+  // await require('./simularUsuarioLogado')(req)
   const auth = req.headers.authorization
   const token = auth && auth.substring(7)
 
@@ -36,7 +36,7 @@ module.exports = async ({req}) => {
     validarAdmin(){
       if(!admin) throw err
     },
-    validarUsuarioFiltro(){
+    validarUsuarioFiltro(filtro){
       if(admin) return
       if(!usuario) throw err
       if(!filtro) throw err
