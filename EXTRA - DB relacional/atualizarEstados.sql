@@ -1,0 +1,1 @@
+update estados set nome = "Maranhao1" where sigla = "MA"

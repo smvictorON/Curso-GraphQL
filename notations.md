@@ -61,3 +61,14 @@ Os resolvers recebem 4 parametros para trabalhar
 - Ctx: aqui vem o contexto com algum dado complementar
 
 - Info: funciona de forma semelhante ao Ctx
+
+-----------------------------------------------------------------------------------------
+
+SQL
+
+- Dividido em 4 principais areas!
+
+DML(data manipulation language) - Insert, Update, Select, Delete (Manipulação de dados)
+DDL(data definition language) - Create, Drop, Alter (Manipulação da estrutura do bd)
+DCL(data control language) - Grant, Revoke (Permissões do bd)
+TCL(transaction control language) - Commit, Rollback, Savepoint (Controlar transações)
